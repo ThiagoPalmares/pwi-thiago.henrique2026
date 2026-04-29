@@ -1,0 +1,94 @@
+/*reset*/
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    justify-content: space-between; /*Separa a logo e o menu*/
+    align-items: center;
+    background-color: #eee;
+    padding: 15px 30px;
+}
+/*Logo a baixo*/
+.logo
+{
+color: red;
+font-size: 24px;
+font-weight: bold;
+}
+/*Lista a baixo*/
+.menu-links{
+    list-style: none;
+    display: flex;
+    gap: 25px; /*Espaço entre os itens*/
+}
+/*Formatar o Link*/
+.menu-links a {
+text-decoration: none;
+color: #555;
+font-size: 16px;
+transition: 50s;
+}
+/*Hover: Efeito ao passar o mouse*/
+.menu-links a:hover {
+    color red;
+    }
+    /*Item Ativo: No início*/
+    .menu.links .ativo{
+        color: red;
+        font-weight: bolder;
+        }
+        /*Footer*/
+        /*Barra Vermelha Superior*/
+        .barra-alerta{
+            background-color: #a8001c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            }
+            /*Abaixo: Container Principal do Footer*/
+            .footer-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;     
+            background-color: #f5f5f5;
+            padding: 30px;
+            flex-wrap: wrap;
+            }
+            /*Abaixo Logo*/
+            .footer-logo h2{
+            color: red;
+            }
+            /*Link do Site*/
+            .footer-link{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .footer-link a{
+            text-decoration: none;
+            color: #444;
+            font-size: 14px;
+            }
+            .footer-link a:hover{
+                color:#a8001c;
+            }
+            /*Redes*/
+            .footer-redes{
+                display: flex;
+                gap: 15px;
+                }
+                .footer-redes a{
+                    text-decoration: none;
+                    color: #444;
+                    font-size: 14px;
+                    }
+                    .footer-redes a:hover{
+                        color:#a8001c;
+                    }
+
+                    

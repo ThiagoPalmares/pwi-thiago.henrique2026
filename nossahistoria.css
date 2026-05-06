@@ -62,12 +62,6 @@ transition: 50s;
   .nossa-historia{
             margin-bottom: 30px;
             text-align: center;
-            align-items: center;
-            gap: 20px;
-        }
-        .nossa-historia h1{
-             align-items: center;
-            gap: 20px;
         }
         .nossa-historia p{
             text-align: center;
@@ -147,5 +141,3 @@ transition: 50s;
                     .footer-redes a:hover{
                         color:#a8001c;
                     }
-
-                    
